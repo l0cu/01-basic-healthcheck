@@ -1,4 +1,4 @@
-module github.com/l0cu/codely-hex-examples.git
+module github.com/l0cu/codely-hex-examples/02-using-gingonic
 
 go 1.19
 
