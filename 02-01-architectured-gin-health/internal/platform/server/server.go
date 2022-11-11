@@ -2,6 +2,7 @@ package server
 
 import (
 	"fmt"
+	"log"
 
 	"github.com/gin-gonic/gin"
 	"github.com/l0cu/codely-hex-examples/02-01-architectured-gin-health/internal/platform/server/handler/health"
@@ -20,6 +21,11 @@ func New(host string, port uint) Server {
 
 	httpServer.registerRoutes()
 	return httpServer
+}
+
+func (s *Server) Run() error {
+	log.Println("Server running on", s.httpAddr)
+	return s.engine.Run(s.httpAddr)
 }
 
 func (s *Server) registerRoutes() {
