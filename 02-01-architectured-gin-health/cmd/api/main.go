@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"../api/bootstrap"
+	"github.com/l0cu/codely-hex-examples/02-01-architectured-gin-health/cmd/api/bootstrap"
 )
 
 func main() {

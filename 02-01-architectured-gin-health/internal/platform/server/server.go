@@ -4,6 +4,7 @@ import (
 	"fmt"
 
 	"github.com/gin-gonic/gin"
+	"github.com/l0cu/codely-hex-examples/02-01-architectured-gin-health/internal/platform/server/handler/health"
 )
 
 type Server struct {
