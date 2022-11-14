@@ -15,7 +15,7 @@ type Server struct {
 
 func New(host string, port uint) Server {
 	httpServer := Server{
-		httpAddr: fmt.Sprintf("#{host}:#{port}"),
+		httpAddr: fmt.Sprintf("%s:%d", host, port),
 		engine:   gin.New(),
 	}
 
