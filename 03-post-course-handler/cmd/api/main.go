@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/l0cu/codely-hex-examples/03-post-course-handler/cmd/api/bootstrap"
+	bootstrap "github.com/l0cu/codely-hex-examples/03-post-course-handler/cmd/api/bootstrap"
 )
 
 func main() {
