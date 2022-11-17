@@ -1,6 +1,6 @@
 package bootstrap
 
-import "github.com/l0cu/codely-hex-examples/02-01-architectured-gin-health/internal/platform/server"
+import "github.com/l0cu/codely-hex-examples/03-post-course-handler/internal/platform/server"
 
 const (
 	host = "localhost"
