@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"net/http"
 
+	"github/l0cu/codely-hex-examples/03-post-course-handler/internal/platform/server"
 	"github.com/gin-gonic/gin"
 )
 
