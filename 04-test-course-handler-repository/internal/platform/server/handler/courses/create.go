@@ -7,7 +7,7 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	mooc "github.com/l0cu/codely-hex-examples/03-post-course-handler/internal/platform/server"
+	mooc "github.com/l0cu/codely-hex-examples/04-test-course-handler-repository/internal/platform/server"
 )
 
 type createRequest struct {

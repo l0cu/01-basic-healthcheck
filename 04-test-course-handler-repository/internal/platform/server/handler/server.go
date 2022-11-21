@@ -5,7 +5,8 @@ import (
 	"log"
 
 	"github.com/gin-gonic/gin"
-	"github.com/l0cu/codely-hex-examples/03-post-course-handler/internal/platform/server/handler/health"
+	health "github.com/l0cu/codely-hex-examples/04-test-course-handler-repository/internal/platform/server/handler/health"
+	courses "github.com/l0cu/codely-hex-examples/04-test-course-handler-repository/internal/platform\server/handler/courses"
 )
 
 type Server struct {
