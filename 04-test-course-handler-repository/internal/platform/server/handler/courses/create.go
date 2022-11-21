@@ -6,8 +6,9 @@ import (
 	"fmt"
 	"net/http"
 
+	mooc "/internal/platform/server"
+
 	"github.com/gin-gonic/gin"
-	mooc "github.com/l0cu/codely-hex-examples/04-test-course-handler-repository/internal/platform/server"
 )
 
 type createRequest struct {

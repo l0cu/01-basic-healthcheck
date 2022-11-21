@@ -4,9 +4,10 @@ import (
 	"fmt"
 	"log"
 
+	courses "/internal/platform/server/handler/courses"
+	health "/internal/platform/server/handler/health"
+
 	"github.com/gin-gonic/gin"
-	health "github.com/l0cu/codely-hex-examples/04-test-course-handler-repository/internal/platform/server/handler/health"
-	courses "github.com/l0cu/codely-hex-examples/04-test-course-handler-repository/internal/platform\server/handler/courses"
 )
 
 type Server struct {

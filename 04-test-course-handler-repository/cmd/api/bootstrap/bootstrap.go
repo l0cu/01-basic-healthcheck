@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"fmt"
 
-	server "github.com/l0cu/codely-hex-examples/04-test-course-handler-repository/internal/platform/server"
+	server "/internal/platform/server/handler"
 )
 
 const (

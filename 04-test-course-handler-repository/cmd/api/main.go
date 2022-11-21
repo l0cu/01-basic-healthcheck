@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	bootstrap "github.com/l0cu/codely-hex-examples/04-test-course-handler-repository/cmd/api/bootstrap"
+	bootstrap "/cmd/api/bootstrap"
 )
 
 func main() {
